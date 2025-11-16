@@ -435,23 +435,6 @@ section {
     gap: 1rem;
 }
 
-.link-btn {
-    padding: 10px 20px;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    color: var(--white-color);
-    border-radius: 8px;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-    display: inline-block;
-    font-weight: 600;
-}
-
-.link-btn:hover {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
-}
-
 /* Contact Section */
 .contact {
     background-color: var(--white-color);
@@ -620,11 +603,6 @@ section {
 
     .project-links {
         flex-direction: column;
-    }
-
-    .link-btn {
-        width: 100%;
-        text-align: center;
     }
 }
 
